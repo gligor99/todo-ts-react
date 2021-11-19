@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 import TodoForm from "./components/TodoForm";
-import TodoList from "./components/TodoList";
 
 function App() {
   const [todos, setTodos] = useState<Array<Todo>>([]);
@@ -19,14 +18,12 @@ function App() {
       }
       return todo;
     });
-    setTodos(updatedTodos)
   };
 
   return (
-    <div className="todo-app">
+    <div className="App">
       <h1>TODO React TypeScript</h1>
       <TodoForm addTodo={addTodo} />
-      <TodoList todos={todos} toggleComplete={toggleComplete} />
     </div>
   );
 }

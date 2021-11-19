@@ -1,0 +1,13 @@
+.todo-form {
+    display: flex;
+    justify-content: center;
+}
+.todo-input {
+    margin: 1em;
+    height: 3em;
+    border-radius: 1em;
+    width: 30%;
+}
+.todo-button {
+    border-radius: 1em;
+}

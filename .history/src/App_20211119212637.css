@@ -1,0 +1,7 @@
+.todo-form {
+    display: flex;
+    justify-content: center;
+}
+.todo-input {
+    height: 30%;
+}
